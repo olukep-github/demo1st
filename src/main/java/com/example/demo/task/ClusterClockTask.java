@@ -20,7 +20,7 @@ public class ClusterClockTask {
             task.setTstatus("Active");
             int version = task.getTversion();
             task.setTversion(task.getTversion() + 1);
-            int update = taskMapper.updateVersion(task.getTversion(),version);
+            int update = taskMapper.updateVersion(task.getTversion(),version,"任务1");
             if (update > 0) {
                 System.out.println("任务1完成");
             }

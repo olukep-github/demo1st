@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 public class ClockdbTaskDemo implements SchedulingConfigurer {
 
     @Autowired
-    CronMapper cronMapper;
+     CronMapper cronMapper;
 
     @Override
     public void configureTasks(ScheduledTaskRegistrar taskRegistrar) {
