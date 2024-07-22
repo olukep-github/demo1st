@@ -105,8 +105,8 @@ public class UserController {
 
     @GetMapping("/test")
     public List test(){
-//        List<User> users = userMapper.FindAllUserAndPermission();
-        List<User> users = userMapper.getUserById(1);
+        List<User> users = userMapper.FindAllUserAndPermission();
+//        List<User> users = userMapper.getUserById(1);
         System.out.println(users);
         return users;
     }

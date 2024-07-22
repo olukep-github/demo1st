@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @EnableScheduling
-@Component
+//@Component
 public class ClusterClockTask {
     @Autowired
     private TaskMapper taskMapper;

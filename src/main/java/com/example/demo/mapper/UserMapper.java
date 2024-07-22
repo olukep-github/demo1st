@@ -8,6 +8,6 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper extends BaseMapper<User>{
-//    public List<User> FindAllUserAndPermission();
-    public List<User> getUserById(int id);
+    public List<User> FindAllUserAndPermission();
+//    public List<User> getUserById(int id);
 }
